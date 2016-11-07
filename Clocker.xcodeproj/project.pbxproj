@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4C02BFB1DD013C100F9E9D8 /* ClockerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C02BFA1DD013C100F9E9D8 /* ClockerView.h */; };
+		F4C02BFD1DD013C100F9E9D8 /* ClockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4C02BF71DD013C100F9E9D8 /* Clocker.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Clocker.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C02BFA1DD013C100F9E9D8 /* ClockerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockerView.h; sourceTree = "<group>"; };
+		F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockerView.m; sourceTree = "<group>"; };
+		F4C02BFE1DD013C100F9E9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C02BF31DD013C100F9E9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C02BED1DD013C100F9E9D8 = {
+			isa = PBXGroup;
+			children = (
+				F4C02BF91DD013C100F9E9D8 /* Clocker */,
+				F4C02BF81DD013C100F9E9D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C02BF81DD013C100F9E9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02BF71DD013C100F9E9D8 /* Clocker.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C02BF91DD013C100F9E9D8 /* Clocker */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02BFA1DD013C100F9E9D8 /* ClockerView.h */,
+				F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */,
+				F4C02BFE1DD013C100F9E9D8 /* Info.plist */,
+			);
+			path = Clocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4C02BF41DD013C100F9E9D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C02BFB1DD013C100F9E9D8 /* ClockerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4C02BF61DD013C100F9E9D8 /* Clocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C02C011DD013C100F9E9D8 /* Build configuration list for PBXNativeTarget "Clocker" */;
+			buildPhases = (
+				F4C02BF21DD013C100F9E9D8 /* Sources */,
+				F4C02BF31DD013C100F9E9D8 /* Frameworks */,
+				F4C02BF41DD013C100F9E9D8 /* Headers */,
+				F4C02BF51DD013C100F9E9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clocker;
+			productName = Clocker;
+			productReference = F4C02BF71DD013C100F9E9D8 /* Clocker.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C02BEE1DD013C100F9E9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lijun;
+				TargetAttributes = {
+					F4C02BF61DD013C100F9E9D8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KS8786N6FD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4C02BF11DD013C100F9E9D8 /* Build configuration list for PBXProject "Clocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4C02BED1DD013C100F9E9D8;
+			productRefGroup = F4C02BF81DD013C100F9E9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C02BF61DD013C100F9E9D8 /* Clocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C02BF51DD013C100F9E9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C02BF21DD013C100F9E9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C02BFD1DD013C100F9E9D8 /* ClockerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4C02BFF1DD013C100F9E9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4C02C001DD013C100F9E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4C02C021DD013C100F9E9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KS8786N6FD;
+				INFOPLIST_FILE = Clocker/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.Clocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F4C02C031DD013C100F9E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KS8786N6FD;
+				INFOPLIST_FILE = Clocker/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.Clocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C02BF11DD013C100F9E9D8 /* Build configuration list for PBXProject "Clocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C02BFF1DD013C100F9E9D8 /* Debug */,
+				F4C02C001DD013C100F9E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C02C011DD013C100F9E9D8 /* Build configuration list for PBXNativeTarget "Clocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C02C021DD013C100F9E9D8 /* Debug */,
+				F4C02C031DD013C100F9E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C02BEE1DD013C100F9E9D8 /* Project object */;
+}
