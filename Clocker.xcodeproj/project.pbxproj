@@ -13,7 +13,6 @@
 		F4C02C0F1DD01D1500F9E9D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02C0E1DD01D1500F9E9D8 /* main.m */; };
 		F4C02C111DD01D1500F9E9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C02C101DD01D1500F9E9D8 /* Assets.xcassets */; };
 		F4C02C141DD01D1500F9E9D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C02C121DD01D1500F9E9D8 /* MainMenu.xib */; };
-		F4C02C191DD01DA700F9E9D8 /* ClockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */; };
 		F4F3E6FA1DD0741B00DC2314 /* TickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E6F81DD0741B00DC2314 /* TickerView.h */; };
 		F4F3E6FB1DD0741B00DC2314 /* TickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E6F91DD0741B00DC2314 /* TickerView.m */; };
 		F4F3E6FE1DD0750900DC2314 /* DoubleSidedLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E6FC1DD0750900DC2314 /* DoubleSidedLayer.h */; };
@@ -265,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C02C191DD01DA700F9E9D8 /* ClockerView.m in Sources */,
 				F4C02C0F1DD01D1500F9E9D8 /* main.m in Sources */,
 				F4C02C0C1DD01D1500F9E9D8 /* AppDelegate.m in Sources */,
 			);

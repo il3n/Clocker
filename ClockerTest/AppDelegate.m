@@ -20,7 +20,7 @@
 
     NSFont *font = [NSFont fontWithName:@"Helvetica Neue" size:100];
     CGFloat fontHeight = [[[NSLayoutManager alloc] init] defaultLineHeightForFont:font];
-    NSLog(@"fontHeight:%f", fontHeight);
+    NSLog(@"fontHeight:%@", [[NSFontManager sharedFontManager] availableFonts]);
     
 //    ClockerView *cv = [[ClockerView alloc] initWithFrame:NSZeroRect isPreview:false];
 //    
