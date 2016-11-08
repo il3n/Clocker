@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		F4C02BFB1DD013C100F9E9D8 /* ClockerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C02BFA1DD013C100F9E9D8 /* ClockerView.h */; };
 		F4C02BFD1DD013C100F9E9D8 /* ClockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */; };
+		F4C02C0C1DD01D1500F9E9D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02C0B1DD01D1500F9E9D8 /* AppDelegate.m */; };
+		F4C02C0F1DD01D1500F9E9D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02C0E1DD01D1500F9E9D8 /* main.m */; };
+		F4C02C111DD01D1500F9E9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C02C101DD01D1500F9E9D8 /* Assets.xcassets */; };
+		F4C02C141DD01D1500F9E9D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C02C121DD01D1500F9E9D8 /* MainMenu.xib */; };
+		F4C02C191DD01DA700F9E9D8 /* ClockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */; };
+		F4F3E6FA1DD0741B00DC2314 /* TickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E6F81DD0741B00DC2314 /* TickerView.h */; };
+		F4F3E6FB1DD0741B00DC2314 /* TickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E6F91DD0741B00DC2314 /* TickerView.m */; };
+		F4F3E6FE1DD0750900DC2314 /* DoubleSidedLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E6FC1DD0750900DC2314 /* DoubleSidedLayer.h */; };
+		F4F3E6FF1DD0750900DC2314 /* DoubleSidedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E6FD1DD0750900DC2314 /* DoubleSidedLayer.m */; };
+		F4F3E7021DD078E600DC2314 /* GradientOverlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E7001DD078E600DC2314 /* GradientOverlayLayer.h */; };
+		F4F3E7031DD078E600DC2314 /* GradientOverlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E7011DD078E600DC2314 /* GradientOverlayLayer.m */; };
+		F4F3E7061DD08BC800DC2314 /* NSView+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E7041DD08BC800DC2314 /* NSView+Extras.h */; };
+		F4F3E7071DD08BC800DC2314 /* NSView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E7051DD08BC800DC2314 /* NSView+Extras.m */; };
+		F4F3E70A1DD0938F00DC2314 /* TickView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3E7081DD0938F00DC2314 /* TickView.h */; };
+		F4F3E70B1DD0938F00DC2314 /* TickView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E7091DD0938F00DC2314 /* TickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,10 +31,34 @@
 		F4C02BFA1DD013C100F9E9D8 /* ClockerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockerView.h; sourceTree = "<group>"; };
 		F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockerView.m; sourceTree = "<group>"; };
 		F4C02BFE1DD013C100F9E9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C02C081DD01D1500F9E9D8 /* ClockerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C02C0A1DD01D1500F9E9D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4C02C0B1DD01D1500F9E9D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4C02C0E1DD01D1500F9E9D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4C02C101DD01D1500F9E9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C02C131DD01D1500F9E9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F4C02C151DD01D1500F9E9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F3E6F81DD0741B00DC2314 /* TickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerView.h; sourceTree = "<group>"; };
+		F4F3E6F91DD0741B00DC2314 /* TickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerView.m; sourceTree = "<group>"; };
+		F4F3E6FC1DD0750900DC2314 /* DoubleSidedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleSidedLayer.h; sourceTree = "<group>"; };
+		F4F3E6FD1DD0750900DC2314 /* DoubleSidedLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleSidedLayer.m; sourceTree = "<group>"; };
+		F4F3E7001DD078E600DC2314 /* GradientOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientOverlayLayer.h; sourceTree = "<group>"; };
+		F4F3E7011DD078E600DC2314 /* GradientOverlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientOverlayLayer.m; sourceTree = "<group>"; };
+		F4F3E7041DD08BC800DC2314 /* NSView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Extras.h"; sourceTree = "<group>"; };
+		F4F3E7051DD08BC800DC2314 /* NSView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Extras.m"; sourceTree = "<group>"; };
+		F4F3E7081DD0938F00DC2314 /* TickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickView.h; sourceTree = "<group>"; };
+		F4F3E7091DD0938F00DC2314 /* TickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F4C02BF31DD013C100F9E9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C02C051DD01D1500F9E9D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				F4C02BF91DD013C100F9E9D8 /* Clocker */,
+				F4C02C091DD01D1500F9E9D8 /* ClockerTest */,
 				F4C02BF81DD013C100F9E9D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				F4C02BF71DD013C100F9E9D8 /* Clocker.saver */,
+				F4C02C081DD01D1500F9E9D8 /* ClockerTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,11 +89,50 @@
 		F4C02BF91DD013C100F9E9D8 /* Clocker */ = {
 			isa = PBXGroup;
 			children = (
+				F4F3E6F71DD073F800DC2314 /* TickerView */,
 				F4C02BFA1DD013C100F9E9D8 /* ClockerView.h */,
 				F4C02BFC1DD013C100F9E9D8 /* ClockerView.m */,
 				F4C02BFE1DD013C100F9E9D8 /* Info.plist */,
 			);
 			path = Clocker;
+			sourceTree = "<group>";
+		};
+		F4C02C091DD01D1500F9E9D8 /* ClockerTest */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02C0A1DD01D1500F9E9D8 /* AppDelegate.h */,
+				F4C02C0B1DD01D1500F9E9D8 /* AppDelegate.m */,
+				F4C02C101DD01D1500F9E9D8 /* Assets.xcassets */,
+				F4C02C121DD01D1500F9E9D8 /* MainMenu.xib */,
+				F4C02C151DD01D1500F9E9D8 /* Info.plist */,
+				F4C02C0D1DD01D1500F9E9D8 /* Supporting Files */,
+			);
+			path = ClockerTest;
+			sourceTree = "<group>";
+		};
+		F4C02C0D1DD01D1500F9E9D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02C0E1DD01D1500F9E9D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4F3E6F71DD073F800DC2314 /* TickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3E6F81DD0741B00DC2314 /* TickerView.h */,
+				F4F3E6F91DD0741B00DC2314 /* TickerView.m */,
+				F4F3E6FC1DD0750900DC2314 /* DoubleSidedLayer.h */,
+				F4F3E6FD1DD0750900DC2314 /* DoubleSidedLayer.m */,
+				F4F3E7001DD078E600DC2314 /* GradientOverlayLayer.h */,
+				F4F3E7011DD078E600DC2314 /* GradientOverlayLayer.m */,
+				F4F3E7041DD08BC800DC2314 /* NSView+Extras.h */,
+				F4F3E7051DD08BC800DC2314 /* NSView+Extras.m */,
+				F4F3E7081DD0938F00DC2314 /* TickView.h */,
+				F4F3E7091DD0938F00DC2314 /* TickView.m */,
+			);
+			name = TickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C02BFB1DD013C100F9E9D8 /* ClockerView.h in Headers */,
+				F4F3E7021DD078E600DC2314 /* GradientOverlayLayer.h in Headers */,
+				F4F3E6FE1DD0750900DC2314 /* DoubleSidedLayer.h in Headers */,
+				F4F3E7061DD08BC800DC2314 /* NSView+Extras.h in Headers */,
+				F4F3E70A1DD0938F00DC2314 /* TickView.h in Headers */,
+				F4F3E6FA1DD0741B00DC2314 /* TickerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +172,23 @@
 			productReference = F4C02BF71DD013C100F9E9D8 /* Clocker.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F4C02C071DD01D1500F9E9D8 /* ClockerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C02C181DD01D1500F9E9D8 /* Build configuration list for PBXNativeTarget "ClockerTest" */;
+			buildPhases = (
+				F4C02C041DD01D1500F9E9D8 /* Sources */,
+				F4C02C051DD01D1500F9E9D8 /* Frameworks */,
+				F4C02C061DD01D1500F9E9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockerTest;
+			productName = ClockerTest;
+			productReference = F4C02C081DD01D1500F9E9D8 /* ClockerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +203,10 @@
 						DevelopmentTeam = KS8786N6FD;
 						ProvisioningStyle = Automatic;
 					};
+					F4C02C071DD01D1500F9E9D8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F4C02BF11DD013C100F9E9D8 /* Build configuration list for PBXProject "Clocker" */;
@@ -109,6 +215,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F4C02BED1DD013C100F9E9D8;
 			productRefGroup = F4C02BF81DD013C100F9E9D8 /* Products */;
@@ -116,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				F4C02BF61DD013C100F9E9D8 /* Clocker */,
+				F4C02C071DD01D1500F9E9D8 /* ClockerTest */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +236,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4C02C061DD01D1500F9E9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C02C111DD01D1500F9E9D8 /* Assets.xcassets in Resources */,
+				F4C02C141DD01D1500F9E9D8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,11 +252,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F3E6FB1DD0741B00DC2314 /* TickerView.m in Sources */,
 				F4C02BFD1DD013C100F9E9D8 /* ClockerView.m in Sources */,
+				F4F3E7031DD078E600DC2314 /* GradientOverlayLayer.m in Sources */,
+				F4F3E7071DD08BC800DC2314 /* NSView+Extras.m in Sources */,
+				F4F3E6FF1DD0750900DC2314 /* DoubleSidedLayer.m in Sources */,
+				F4F3E70B1DD0938F00DC2314 /* TickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C02C041DD01D1500F9E9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C02C191DD01DA700F9E9D8 /* ClockerView.m in Sources */,
+				F4C02C0F1DD01D1500F9E9D8 /* main.m in Sources */,
+				F4C02C0C1DD01D1500F9E9D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4C02C121DD01D1500F9E9D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C02C131DD01D1500F9E9D8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F4C02BFF1DD013C100F9E9D8 /* Debug */ = {
@@ -232,6 +375,7 @@
 		F4C02C021DD013C100F9E9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KS8786N6FD;
@@ -246,6 +390,7 @@
 		F4C02C031DD013C100F9E9D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KS8786N6FD;
@@ -254,6 +399,30 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.Clocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		F4C02C161DD01D1500F9E9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClockerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.ClockerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4C02C171DD01D1500F9E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClockerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.ClockerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -276,6 +445,16 @@
 				F4C02C031DD013C100F9E9D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C02C181DD01D1500F9E9D8 /* Build configuration list for PBXNativeTarget "ClockerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C02C161DD01D1500F9E9D8 /* Debug */,
+				F4C02C171DD01D1500F9E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
